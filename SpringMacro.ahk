@@ -98,7 +98,7 @@ PortalReward()
     loop 5
     {
         MouseMove(333,70)
-        Sleep 100
+        Sleep 250
         BetterClick(333,71)
     }
     MouseMove(290,336)
@@ -378,4 +378,5 @@ NextPortal()
 ResetClick()
 {
     BetterClick(287,219) ; Presses X button
+
 }
